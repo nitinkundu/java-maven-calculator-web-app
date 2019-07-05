@@ -47,6 +47,17 @@
             <artifactId>jersey-media-json-jackson</artifactId>
             <version>${jersey-version}</version>
         </dependency>
+         <dependency>
+            <groupId>a.b.c</groupId>
+            <artifactId>c-d-f</artifactId>
+            <version>1.0.1-SNAPSHOT</version>
+            <type>war</type>
+        </dependency>
+        <dependency>
+            <groupId>a.b.c</groupId>
+            <artifactId>g-h-i</artifactId>
+            <version>1.1.6-SNAPSHOT</version>
+            <type>war</type>
         <dependency>
             <groupId>org.glassfish.jersey.core</groupId>
             <artifactId>jersey-server</artifactId>
