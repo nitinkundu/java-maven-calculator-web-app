@@ -52,13 +52,13 @@
          <dependency>
             <groupId>a.b.c</groupId>
             <artifactId>c-d-f</artifactId>
-            <version>1.0.1-SNAPSHOT</version>
+            <version>${c-d-f.version}</version>
             <type>war</type>
         </dependency>
         <dependency>
             <groupId>a.b.c</groupId>
             <artifactId>g-h-i</artifactId>
-            <version>1.1.6-SNAPSHOT</version>
+            <version>${g-h-i.version}</version>
             <type>war</type>
         </dependency>
         <dependency>
