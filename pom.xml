@@ -13,6 +13,8 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
+        <c-d-f.version>1.0.1-SNAPSHOT</c-d-f.version>
+        <g-h-i.version>1.1.6-SNAPSHOT</g-h-i.version>
         <jersey-version>2.27</jersey-version>
     </properties>
 
@@ -63,18 +65,6 @@
             <groupId>org.glassfish.jersey.core</groupId>
             <artifactId>jersey-server</artifactId>
             <version>${jersey-version}</version>
-        </dependency>
-         <dependency>
-            <groupId>a.b.c</groupId>
-            <artifactId>c-d-f</artifactId>
-            <version>1.0.1-SNAPSHOT</version>
-            <type>war</type>
-        </dependency>
-        <dependency>
-            <groupId>a.b.c</groupId>
-            <artifactId>g-h-i</artifactId>
-            <version>1.1.6-SNAPSHOT</version>
-            <type>war</type>
         </dependency>
         <dependency>
             <groupId>org.glassfish.jersey.inject</groupId>
